@@ -1,0 +1,11 @@
+[Unit]
+Description=Python Fan Control Script
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/scripts/fan/fan_ctrl.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
