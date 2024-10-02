@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scriptDir=$(pwd)
